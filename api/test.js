@@ -25,11 +25,13 @@ describe('GET /v1/single', function(){
     .set('Accept-Encoding', 'gzip')
     .expect(200)
     .expect('Content-Type', /json/)
-    .expect({
-    "_id": "5421a86d28c35205dfaa1452",
-    "word": "new",
-    "type": "Adjective",
-    "meaning": "# [[additional|Additional]]; recently [[discover]]ed."
-    }, done);
+    .end(function(err, res){
+    if (err) throw err;
+    else {
+        if (!('_id' in res.body)) return "missing id";
+    if (!('word' in res.body)) throw new Error("missing word");
+        done();
+    }
+  });
   })
 })

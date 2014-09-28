@@ -16,6 +16,9 @@ $ npm install
 ```
 alias node='node --harmony'
 ```
+Also import the dictionary collection using instructions in import.txt
+
+
 ##To run the application
 
 ```
@@ -25,7 +28,7 @@ node --harmony index.js
 ## Running tests
 
 ```
-Coming in next commit ;) //$ make test
+$ make test
 ```
 
 ## Authors

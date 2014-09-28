@@ -27,13 +27,12 @@
     "koa-router": "^3.4.0",
     "monk": "^0.9.0"
   },
-  "devDependencies": {
-    "mocha": "*",
-    "should": "*",
-    "supertest": "~0.8.2"
-  },
   "license": "MIT",
   "engines": {
     "node": ">= 0.11.13"
+  },
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "should": "^4.0.4"
   }
 }
