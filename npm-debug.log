@@ -1,0 +1,51 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'koa-router' ]
+2 info using npm@1.4.28
+3 info using node@v0.13.0-pre
+4 verbose cache add [ 'koa-router', null ]
+5 verbose cache add name=undefined spec="koa-router" args=["koa-router",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'koa-router',
+6 verbose parsed url   path: 'koa-router',
+6 verbose parsed url   href: 'koa-router' }
+7 silly lockFile f870f824-koa-router koa-router
+8 verbose lock koa-router /home/bhanu/.npm/f870f824-koa-router.lock
+9 silly lockFile f870f824-koa-router koa-router
+10 silly lockFile f870f824-koa-router koa-router
+11 verbose addNamed [ 'koa-router', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile abb0e12a-koa-router koa-router@
+14 verbose lock koa-router@ /home/bhanu/.npm/abb0e12a-koa-router.lock
+15 silly addNameRange { name: 'koa-router', range: '*', hasData: false }
+16 verbose request where is /koa-router
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 01ce375f40956bd3
+19 verbose url raw /koa-router
+20 verbose url resolving [ 'https://registry.npmjs.org/', './koa-router' ]
+21 verbose url resolved https://registry.npmjs.org/koa-router
+22 verbose request where is https://registry.npmjs.org/koa-router
+23 info trying registry request attempt 1 at 05:49:13
+24 verbose etag "C8U64HXYAGHNMP5LFQVM35BYA"
+25 http GET https://registry.npmjs.org/koa-router
+26 error TypeError: Cannot read property 'indexOf' of undefined
+26 error     at Object.onlookup [as oncomplete] (dns.js:96:51)
+27 error If you need help, you may report this *entire* log,
+27 error including the npm and node versions, at:
+27 error     <http://github.com/npm/npm/issues>
+28 error System Linux 3.16.0-sabayon
+29 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "koa-router"
+30 error cwd /run/media/bhanu/AC80D41480D3E2BE/DATA/web/wiki-api-2
+31 error node -v v0.13.0-pre
+32 error npm -v 1.4.28
+33 verbose exit [ 1, true ]
