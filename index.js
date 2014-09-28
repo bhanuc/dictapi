@@ -38,5 +38,6 @@ app.use(compress({
   flush: require('zlib').Z_SYNC_FLUSH
 }));
 app.use(mount('/v1', APIv1.middleware()));
+module.exports = app;
 if (!module.parent) app.listen(3000);
 console.log('Dictapi is Running on http://localhost:3000/');
