@@ -1,0 +1,6 @@
+Download the definitions dump from http://tools.wmflabs.org/enwiktdefns/ and convert it into csv or use the converted file from here and finally import it into mongodb using the command below
+
+mongoimport -d mydb -c words --type csv --file mongo.csv --headerline
+
+
+
